@@ -9,7 +9,7 @@ struct items{
 };
 
 struct orders{
-    char customer[50];
+    char customer[50]; // what is this used for?
     char date[50];
     int numOfItems;
     struct items itm[50];
